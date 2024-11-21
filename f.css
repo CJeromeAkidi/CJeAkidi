@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #F2F4F7;
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+}
+.container{
+    margin: 120px;
+    width: 65%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.leftpart{
+    width: 40%;
+}
+.facebook{
+    height: 106px;    margin: -28px;}
+h3{
+    color: #1C1E21;
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    font-size: 28px;
+    font-weight: normal;
+    line-height: 32px;
+    width: 500px;
+}
+.rightpart{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.loginpage{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    width: 450px;
+    height: 350px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);;
+}
+from{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 0px;
+}
+input{
+    width: 90%;
+    height: 50px;
+    margin: 10px 10px;
+    padding: 0px 10px;
+    outline: none;
+    border: 1px solid #ccc;
+    font-size: 18px;
+    border-radius: 6px;
+}
+.button {
+    
+    margin: 10px 10px;
+    padding: 0px 10px;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: center;
+    cursor: pointer;
+    border-radius: 6px}
+  .button1 {background-color: #1877F2; width: 95%;}
+  .button1:hover {background-color: #008CBA;color: white;}
+  .button2 {background-color: #42B72A; width: 50%;}
+  .button2:hover {background-color: #04AA6D;color: white;}
+
+p{margin: 5px 1px;
+    color: royalblue;
+}p:hover{text-decoration: underline; cursor: pointer;}
+hr{
+    border: 1px solid #ccc;
+    width: 320px;
+    margin: 20px;
+}
+
+span{
+    margin: 20px 0px;
+    font-size: 15px;
+    font-weight: 20px;
+}
+.a{
+    color: black;
+    font-size: 17px;
+    font-weight: bold;
+}.a:hover{text-decoration: underline; cursor: pointer;}

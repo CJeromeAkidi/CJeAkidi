@@ -1,0 +1,82 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    background: white;
+    color: #362e2e;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 99%;}
+.google{
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: contain;
+    object-position: center bottom;
+    width: auto;
+    display:flex;
+    position: absolute;
+    top: 23%;
+    left: 42%;
+    right: 42%;
+} 
+
+.searchcontainer {
+    width: 31%;
+    align-items: center;
+    position: absolute;
+    top: 36.4%;
+    left: 35%;
+    cursor: pointer;
+    align-content: center;
+    text-align: center;
+    background: white;
+    padding: 10px;
+    display: flex;
+    border-radius: 50px;
+    justify-content: space-between;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.search{
+    width: 80%;
+    border: none;
+}
+.search:active{
+    border: none;
+}
+
+.material-symbols-outlined {
+    cursor: pointer;
+    font-size: 15px;
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+.editcontainer{
+    margin: 0px 0px 10px 10px;
+    width: 140px;
+    height: 30px;
+    font-size: 15px;
+    align-items: center;
+    position: absolute;
+    right: 1%;
+    bottom: 2%;
+    align-content: center;
+    text-align: center;
+    background: #c2e7ffff;
+    padding: 0px;
+    display: flex;
+    cursor: pointer;
+    border-radius: 50px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transition: background 0.3s ease;
+    padding-inline: 16px;
+    justify-content: space-between;
+}.editcontainer:hover {
+    
+    background: #a8c7faff;
+}
